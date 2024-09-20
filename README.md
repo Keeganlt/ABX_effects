@@ -8,12 +8,19 @@ This paper is published at [PLOS One](https://journals.plos.org/plosone/article?
 ## Description
 Clostridioides difficile (C. difficile) is the leading cause of healthcare-associated diarrhea worldwide. C. difficile infection (CDI) is characterized by diarrhea that can lead to life-threatening colon inflammation and is one of only five pathogens classified by the Centers for Disease Control and Prevention as an urgent threat. The relationship between antibiotic exposure and CDI indicates an opportunity to reduce the burden of CDI through antibiotic stewardship, especially given that up to 30% of all antibiotic prescribing in the United States is considered unnecessary or inappropriate. To quantify the impact of antibiotics on both acquisition and progression we develop a model of hospital-associated C. difficile infections (Figure 1). This was done using a deterministic system of ordinary differential equations. We then apply our model to different classes of antibiotics to understand how these different classes of antibiotics impact susceptibility and progression to understand how this may impact potential interventions including the impact of reducing the frequency of antibiotic prescribing, shortening the duration of high-risk antibiotic courses, and shifting antibiotic prescriptions away from classes linked to CDI. 
 
-![](figures/PLOS_Figure1.PNG)
+
+<div align="center">
+  <img src="figures/PLOS_Figure1.PNG" alt="Figure2" width="1200"/>
+</div>
+
 Figure 1: Schematic of the mechanistic model of C. difficile disease dynamics and antibiotic risk states.
 
 We find that the impact of two antibiotic stewardship interventions on facility acquisition and progression from colonization is as expected, by decreasing the overall antibiotic prescribing rate both the rate of acquisition and the rate of progression to CDI decrease (Fig 3). While we find that both the acquisition rate and the rate of progression to CDI decrease with decreased antibiotic prescribing, we find our results are not robust to the assumptions on the relationship between mp and ma, the scaling factors for increased progression and increased acquisition for patients in the elevated risk state (Figure 2).
 
-![](figures/PLOS_Figure3.PNG)
+<div align="center">
+  <img src="figures/PLOS_Figure3.PNG" alt="Figure2" width="1200"/>
+</div>
+
 Figure 2: Plot of the intervention of reducing the overall prescribing rate.
 
 The relationship between the overall antibiotic prescribing rate (ω) and the (a) rate of facility-onset acquisition and (b) rate of facility-onset infection. The solid line depicts the relationship between antibiotic prescribing (assuming higher vulnerability to acquisition) and either facility-onset acquisition or infection when using the values of ma and mp (ma = 13.25 and mp = 1.29) and the dotted line corresponds to the same relationship (assuming higher vulnerability to progression) as the solid line but for the values of ma and mp (ma = 1.59 and mp = 3.31). 
